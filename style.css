@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+}
+
+header {
+    width: 100%;
+    height: 72px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    box-shadow: 0px 2px 20px 2px #e0e0e0;
+}
+
+.logo {
+    margin: 81px;
+}
+
+.sign-in {
+    width: 78px;
+    height: 40px;
+    margin-right: 143px;
+    text-align: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #E0E0E0;
+    border-radius: 3px;
+    position: absolute;
+    right: 0;
+    font-size: 13px;
+}
+
+.sign-in p {
+    margin: 0;
+    padding: 0;
+    line-height: 40px;
+}
+
+.basket {
+    margin-right: 92px;
+    margin-left: 27px;
+    position: absolute;
+    right: 0;
+}
+
+.search {
+    width: auto;
+    margin: 45px 81px 0 81px;
+
+}
+
+input {
+    width: 100%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.Moscow-Restaurants {
+    margin: 45px 81px 0 81px;
+    font-size: 22px;
+}
